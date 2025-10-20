@@ -1,0 +1,26 @@
+# Site settings
+title: Alex Lin
+email: your.email@example.com
+description: >-
+  Investment Analyst | Entrepreneur | Building the future of private markets
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Collections
+collections:
+  content:
+    output: false
+
+# Exclude from processing
+exclude:
+  - README.md
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
